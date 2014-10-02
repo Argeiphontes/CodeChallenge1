@@ -14,6 +14,7 @@
 		81B3BF6D19DDD86300CFF278 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B3BF6C19DDD86300CFF278 /* Images.xcassets */; };
 		81B3BF7019DDD86300CFF278 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B3BF6E19DDD86300CFF278 /* LaunchScreen.xib */; };
 		81B3BF7C19DDD86300CFF278 /* CodeChallenge1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3BF7B19DDD86300CFF278 /* CodeChallenge1Tests.m */; };
+		81B3BF8719DDE39E00CFF278 /* PageTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3BF8619DDE39E00CFF278 /* PageTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		81B3BF7519DDD86300CFF278 /* CodeChallenge1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallenge1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B3BF7A19DDD86300CFF278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81B3BF7B19DDD86300CFF278 /* CodeChallenge1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeChallenge1Tests.m; sourceTree = "<group>"; };
+		81B3BF8519DDE39E00CFF278 /* PageTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTwo.h; sourceTree = "<group>"; };
+		81B3BF8619DDE39E00CFF278 /* PageTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,13 @@
 		81B3BF5E19DDD86300CFF278 /* CodeChallenge1 */ = {
 			isa = PBXGroup;
 			children = (
+				81B3BF6919DDD86300CFF278 /* Main.storyboard */,
 				81B3BF6319DDD86300CFF278 /* AppDelegate.h */,
 				81B3BF6419DDD86300CFF278 /* AppDelegate.m */,
 				81B3BF6619DDD86300CFF278 /* ViewController.h */,
 				81B3BF6719DDD86300CFF278 /* ViewController.m */,
-				81B3BF6919DDD86300CFF278 /* Main.storyboard */,
+				81B3BF8519DDE39E00CFF278 /* PageTwo.h */,
+				81B3BF8619DDE39E00CFF278 /* PageTwo.m */,
 				81B3BF6C19DDD86300CFF278 /* Images.xcassets */,
 				81B3BF6E19DDD86300CFF278 /* LaunchScreen.xib */,
 				81B3BF5F19DDD86300CFF278 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				81B3BF6819DDD86300CFF278 /* ViewController.m in Sources */,
 				81B3BF6519DDD86300CFF278 /* AppDelegate.m in Sources */,
 				81B3BF6219DDD86300CFF278 /* main.m in Sources */,
+				81B3BF8719DDE39E00CFF278 /* PageTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
